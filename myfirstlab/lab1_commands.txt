@@ -1,0 +1,157 @@
+    1  pwd
+    2  ls-la
+    3  mkdir ~/project
+    4  touch ~/project/notes.txt
+    5  ls -la
+    6  pwd
+    7  find /var/log -type f -mtime -7
+    8  less /etc/passwd
+    9  less filename.txt
+   10  mkdir logs for i in {1---10}; do echo "this is line $i">>logs /app.log,done tail -n 3 logs/app.log
+   11  mkdir -p ~linux_admin_practice2
+   12  cd ~/linux_admin_practice2
+   13  pwd
+   14  ls -la
+   15  vi linux_admin_lab.sh
+   16  mkdir -p ~/linux_admin_practice2
+   17  cd ~/linux_admin_practice2
+   18  pwd
+   19  ls -la
+   20  vi linux_admin_lab.sh
+   21  python --version
+   22  python3 --version
+   23  which python3
+   24  vim file.py
+   25  vi file.py
+   26  vi riti.py
+   27  python3 --version
+   28  vi riti.py
+   29  python3 --version
+   30  vi ritz.py
+   31  python3 --version
+   32  vi file.py
+   33  vim -rfile.py
+   34  vi -rfile.py
+   35  vi file.py
+   36  mkdir -p ~/linux_lab3
+   37  cd ~/linux_lab3
+   38  mkdir -p data backups logs output
+   39  touch data/names.txt data/students.txt data/notes.txt
+   40  touch backuos/db_01.bak backups/db_02.bak
+   41  find . -maxdepth 2 -type f -print
+   42  nano hello.sh
+   43  chmod +x hello.sh
+   44  ./hello.sh
+   45  nano hello.sh
+   46  ./hello.sh
+   47  nano user_input.sh
+   48  chmod +x user_input.sh
+   49  ./user_input.sh
+   50  nano calculator.sh
+   51  chmod +x calculator.sh
+   52  ./calculator.sh
+   53  sudo adduser riti
+   54  sudo adduser ritika
+   55  vi program1 .sh
+   56  mkdir "Linux_labsheet"
+   57  cd "Linux_labsheet"
+   58  mkdir lab1 lab2 lab3 
+   59  ls
+   60  cd lab1
+   61  pwd
+   62  cd . .
+   63  cd ..
+   64  pwd
+   65  cd ..
+   66  pwd
+   67  cd ..
+   68  pwd
+   69  mkdr "linux_labsheet"
+   70  mkdir "Linux_labsheet"
+   71  pwd
+   72  cd "Linux_labsheet"
+   73  mkdir lab1 lab2 lab3
+   74  ls
+   75  cd lab1
+   76  pwd
+   77  ls
+   78  ls -la ~
+   79  ls -lah
+   80  mkdir myfirstlab
+   81  cd myfirstlab
+   82  touch a.txt b.txt c.txt
+   83  cat /etc/os-release
+   84  whoami
+   85  hostname
+   86  df -h
+   87  free -h
+   88  uptime
+   89  uname -a
+   90  man ls
+   91  cp --help
+   92  whatis mv
+   93  cd ~
+   94  mkdir -p project/src/data
+   95  rm ~/myfirstlab/
+   96  echo "Riya">students.txt
+   97  echo "neha">>students.txt
+   98  echo "pooja">>students.txt
+   99  echo "anjali">>students.txt
+  100  echo "simran">>students.txt
+  101  cat students.txt
+  102  head -n 2 students.txt
+  103  tail -n 2 students.txt
+  104  mkdir backup
+  105  cp students.txt backup/
+  106  mv students.txt class_list.txt
+  107  grep "a" class_list.txt
+  108  grep -n "a" class_list.txt
+  109  chmod 600 class_list.txt
+  110  ls -l class_list.txt
+  111  find ~ -type f -name "*.txt"
+  112  wc -l class_list.txt
+  113  head -n 5 /etc/passwd
+  114  tail -n 5  /var/log/dpkg.log
+  115  cp -r project project_backup
+  116  less filename.txt
+  117  less class_list.txt
+  118  mv a.txt b.txt archive/
+  119  mkdir logs && cd logs && for i in {1..10}; do echo "line $i" >> app.log;  done && tail -n 3 app.log
+  120  find . -name "*.log" -exec cat {} \;
+  121  grep -r "error" .
+  122  echo "# rwxr-xr--permission example" > test.sh && chmod u+x test.sh
+  123  cd ../Linux_labsheet
+  124  ls
+  125  git status
+  126  pwd
+  127  ls -la
+  128  cd ..
+  129  git clone https://github.com/ritika1721/linux_lab_cu26280008.git
+  130  cd ~/Linux_labsheet/lab1
+  131  pwd
+  132  sudo apt update
+  133  sudo apt install git
+  134  git --version
+  135  cd ~/Linux_labsheet/lab1
+  136  ls
+  137  git init
+  138  git remote add origin https://github.com/ritika1721/linux_lab_cu26280008.git
+  139  git add .
+  140  git commit -m "uploaded linux lab1"
+  141  git config --global user.name "Ritika"
+  142  git config --global user.email "ritikachoudhary650@gmail.com"
+  143  git commit -m "uploaded Linux lab1"
+  144  git push -u origin main
+  145  git push -u origin master
+  146  git remote -v
+  147  git branch
+  148  git config --global credential.helper store
+  149  git push -u origin master
+  150  cat a.txt
+  151  cd ~/Linux_labsheet/lab1
+  152  ls
+  153  cd myfirstlab
+  154  ls
+  155  cat a.txt
+  156  history
+  157  history > lab1_commands.txt
