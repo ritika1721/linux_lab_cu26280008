@@ -1,56 +1,56 @@
-   69  mkdr "linux_labsheet"
-   70  mkdir "Linux_labsheet"
-   71  pwd
-   72  cd "Linux_labsheet"
-   73  mkdir lab1 lab2 lab3
-   74  ls
-   75  cd lab1
-   76  pwd
-   77  ls
-   78  ls -la ~
-   79  ls -lah
-   80  mkdir myfirstlab
-   81  cd myfirstlab
-   82  touch a.txt b.txt c.txt
-   83  cat /etc/os-release
-   84  whoami
-   85  hostname
-   86  df -h
-   87  free -h
-   88  uptime
-   89  uname -a
-   90  man ls
-   91  cp --help
-   92  whatis mv
-   93  cd ~
-   94  mkdir -p project/src/data
-   95  rm ~/myfirstlab/
-   96  echo "Riya">students.txt
-   97  echo "neha">>students.txt
-   98  echo "pooja">>students.txt
-   99  echo "anjali">>students.txt
-  100  echo "simran">>students.txt
-  101  cat students.txt
-  102  head -n 2 students.txt
-  103  tail -n 2 students.txt
-  104  mkdir backup
-  105  cp students.txt backup/
-  106  mv students.txt class_list.txt
-  107  grep "a" class_list.txt
-  108  grep -n "a" class_list.txt
-  109  chmod 600 class_list.txt
-  110  ls -l class_list.txt
-  111  find ~ -type f -name "*.txt"
-  112  wc -l class_list.txt
-  113  head -n 5 /etc/passwd
-  114  tail -n 5  /var/log/dpkg.log
-  115  cp -r project project_backup
-  116  less filename.txt
-  117  less class_list.txt
-  118  mv a.txt b.txt archive/
-  119  mkdir logs && cd logs && for i in {1..10}; do echo "line $i" >> app.log;  done && tail -n 3 app.log
-  120  find . -name "*.log" -exec cat {} \;
-  121  grep -r "error" .
-  122  echo "# rwxr-xr--permission example" > test.sh && chmod u+x test.sh
-  123  cd ../Linux_labsheet
-  124  ls
+	 mkdr "linux_labsheet"
+	 mkdir "Linux_labsheet"
+	 pwd
+	 cd "Linux_labsheet"
+	 mkdir lab1 lab2 lab3
+	 ls
+	 cd lab1
+	 pwd
+	 ls
+	 ls -la ~
+	 ls -lah
+	 mkdir myfirstlab
+	 cd myfirstlab
+	 touch a.txt b.txt c.txt
+	 cat /etc/os-release
+	 whoami
+	 hostname
+	 df -h
+	 free -h
+	 uptime
+	 uname -a
+	 man ls
+	 cp --help
+	 whatis mv
+	 cd ~
+	 mkdir -p project/src/data
+	 rm ~/myfirstlab/
+	 echo "Riya">students.txt
+	 echo "neha">>students.txt
+	 echo "pooja">>students.txt
+	 echo "anjali">>students.txt
+	 echo "simran">>students.txt
+	 cat students.txt
+	 head -n 2 students.txt
+	 tail -n 2 students.txt
+	 mkdir backup
+	 cp students.txt backup/
+	 mv students.txt class_list.txt
+	 grep "a" class_list.txt
+	 grep -n "a" class_list.txt
+	 chmod 600 class_list.txt
+	 ls -l class_list.txt
+	 find ~ -type f -name "*.txt"
+	 wc -l class_list.txt
+	 head -n 5 /etc/passwd
+	 tail -n 5  /var/log/dpkg.log
+	 cp -r project project_backup
+	 less filename.txt
+	 less class_list.txt
+	 mv a.txt b.txt archive/
+	 mkdir logs && cd logs && for i in {1..10}; do echo "line $i" >> app.log;  done && tail -n 3 app.log
+	 find . -name "*.log" -exec cat {} \;
+	 grep -r "error" .
+	 echo "# rwxr-xr--permission example" > test.sh && chmod u+x test.sh
+	 cd ../Linux_labsheet
+	 ls
